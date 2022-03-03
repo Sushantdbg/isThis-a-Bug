@@ -42,8 +42,7 @@ ATOM , VS CODE, ADOBE XD, GIT AND GITHUB, HYPER
 
 ### User Data flow diagram
 
-<<<<<<< HEAD
-<img src="../assets/(raw)context-flow-diagram.png" alt="User Data flow diagram" style="width:100%"/>
+<img src="https://github.com/Sushantdbg/HCL-CBRS/blob/main/Documentation/assets/(raw)user-data-flow-diagram.png?raw=true" alt="User Data flow diagram" style="width:100%"/>
 
 ## **SCOPE**
 
@@ -86,6 +85,3 @@ Final Review
 ### Scope Baseline
 
 At the end of Developemt Period the Project should work as described in Project Goal & Objective
-=======
-<img src="https://github.com/Sushantdbg/HCL-CBRS/blob/main/Documentation/assets/(raw)user-data-flow-diagram.png?raw=true" alt="User Data flow diagram" style="width:100%"/>
->>>>>>> main
