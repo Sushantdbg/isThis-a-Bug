@@ -33,15 +33,16 @@ ATOM , VS CODE, ADOBE XD, GIT AND GITHUB, HYPER
 
 ### Context flow diagram
 
-<img src="../assets/(raw)context-flow-diagram.png" alt="Context flow diagram" style="width:100%"/>
+<img src="https://github.com/Sushantdbg/HCL-CBRS/blob/main/Documentation/assets/(raw)context-flow-diag.png?raw=true" alt="Context flow diagram" style="width:100%"/>
 
 ### Admin Data flow diagram
 
-<img src="../assets/(raw)context-flow-diagram.png" alt="Admin Data flow diagram" style="width:100%"/>
+<img src="https://github.com/Sushantdbg/HCL-CBRS/blob/main/Documentation/assets/(raw)admin-data-flow-diag.png?raw=true" alt="Admin Data flow diagram" style="width:100%"/>
 
 
 ### User Data flow diagram
 
+<<<<<<< HEAD
 <img src="../assets/(raw)context-flow-diagram.png" alt="User Data flow diagram" style="width:100%"/>
 
 ## **SCOPE**
@@ -85,3 +86,6 @@ Final Review
 ### Scope Baseline
 
 At the end of Developemt Period the Project should work as described in Project Goal & Objective
+=======
+<img src="https://github.com/Sushantdbg/HCL-CBRS/blob/main/Documentation/assets/(raw)user-data-flow-diagram.png?raw=true" alt="User Data flow diagram" style="width:100%"/>
+>>>>>>> main
