@@ -1,0 +1,41 @@
+/* ALL/GLOBAL CSS */
+* {
+  background-color: #22292f;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  max-width: 750px;
+  margin: auto;
+}
+
+/* MAIN BODY CSS */
+.body--title {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+
+.body--gif {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.bottom--text {
+  color: #696969;
+  font-size: 1.5rem;
+  max-width: 75%;
+  margin: auto;
+}
+
+button {
+  margin-top: 50px;
+  width: 90%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}

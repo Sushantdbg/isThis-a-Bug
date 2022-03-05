@@ -16,6 +16,8 @@ Signup Conformation Admin
 
 Reporting Page
 
+✅Thank you after a report page
+
 User Past and Current Report Status
 
 Admin Report management
