@@ -1,44 +1,58 @@
 # HCL-CBR
-This is a croudsourced bug alert system for huge software and products
-
+### This is a croudsourced bug alert system for huge software and products
+<br/>
+<br/>
 
 # PROGRESS TRACKING
 
-## BASIC BUILT                                      > ✅
+### BASIC BUILT                                      > ✅
 
-## APPROVED FOR REACT                               > ✅✅
+### APPROVED FOR REACT                               > ✅✅
 
-## PORTED TO REACT (ONLY FRONTEND)                  > ✅✅✅
+### PORTED TO REACT (ONLY FRONTEND)                  > ✅✅✅
 
-## PORTED TO REACT WITH BEHAVIOUR AND BACKEND       > ✅✅✅✅
+### PORTED TO REACT WITH BEHAVIOUR AND BACKEND       > ✅✅✅✅
 
-## ACTIVE IN PRODUCTION BUILD                       > ✅✅✅✅✅
+### ACTIVE IN PRODUCTION BUILD                       > ✅✅✅✅✅
+<br/>
+<br/>
 
 
-✅DDos Screen
+# GUI Screens to Build
+#### 01.DDos Screen     ✅
 
-        |User Login >>|
-✅  <<|               |>> Merging this as of now let's see if we would need a different login or both normal users and admin
-        |Admin Login>>|
 
-✅User Sign Up
+#### 02.Login Page      ✅
 
-✅Admin Sign Up
 
-✅Signup Conformation User
+#### 03.User Sign Up   ✅
 
-Signup Conformation Admin
 
-Reporting Page
+#### 04.Admin Sign Up  ✅
 
-How to write a good bug report
 
-✅Thank you after a report page
+#### 05.Signup Conformation User       ✅
 
-FAQ
 
-User Past and Current Report Status
+#### 06.Signup Conformation Admin       
 
-Admin Report management
 
-About Us
+#### 07.Reporting Page 
+
+
+#### 08.How to write a good bug report
+
+
+#### 09.Thank you after a report page  ✅
+
+
+#### 10.FAQ
+
+
+#### 11.User Past and Current Report Status
+
+
+#### 12.Admin Report management
+
+
+#### 13.About Us
