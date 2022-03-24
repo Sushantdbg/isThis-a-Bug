@@ -34,10 +34,10 @@
 #### 05.Signup Conformation User       ✅
 
 
-#### 06.Signup Conformation Admin       
+#### 06.Signup Conformation Admin     ✅
 
 
-#### 07.Reporting Page 
+#### 07.Reporting Page
 
 
 #### 08.How to write a good bug report
@@ -46,7 +46,7 @@
 #### 09.Thank you after a report page  ✅
 
 
-#### 10.FAQ
+#### 10.FAQ     ✅
 
 
 #### 11.User Past and Current Report Status
@@ -55,4 +55,4 @@
 #### 12.Admin Report management
 
 
-#### 13.About Us
+#### 13.About Us      ✅

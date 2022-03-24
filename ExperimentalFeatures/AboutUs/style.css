@@ -1,5 +1,14 @@
-/* EXPERIMENTAL AREA TOUCH AT YOUR OWN RISK */
-/* ALL CSS/ GLOBAL */
+* {
+  font-family: poppins;
+}
+
+body {
+  /* letter-spacing: -2px; */
+  margin: 0;
+  padding: 0;
+  background-color: #080710;
+}
+
 *,
 *:before,
 *:after {
@@ -15,48 +24,56 @@ body {
 }
 
 /* FORM IN BODY STYLING */
-.thanks {
-  height: 500px;
-  min-width: 450px;
-  max-width: 500px;
+.about {
+  margin: 30px;
+  margin-top: 70px;
+  margin-left: 10%;
+  ;
+  /* height: 820px; */
+  width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  position: relative;
+  /* transform: translate(-50%, -50%); */
+  /* top: 50%;*/
+  /* left: 50%; */
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-  padding: 50px 35px;
+  padding: 50px 60px;
+  margin-bottom: 100px;
+  margin-left: 20%;
 }
 
-.thanks {
+.about {
   /* here if we put a star * then it couldnt be overwritten */
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
   outline: none;
   border: none;
+  /* margin-top: 80px; */
 }
 
-.thanks--title {
+.about--title {
   font-size: 4rem;
   text-align: center;
   font-weight: 900;
-  margin-top: 2rem;
 }
 
-.thanks--message {
+.about--point {
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
-  text-align: center;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.about--desc {
+  font-size: 16px;
+  font-weight: 100;
 }
 
 button {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 100%;
   background-color: #ffffff;
   color: #080710;
@@ -65,4 +82,8 @@ button {
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.button-last:hover {
+  background-color: #23a2f6;
 }

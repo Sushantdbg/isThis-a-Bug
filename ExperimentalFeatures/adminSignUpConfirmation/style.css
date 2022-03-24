@@ -3,6 +3,7 @@
 *,
 *:before,
 *:after {
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -13,9 +14,10 @@ body {
   background-color: #080710;
 }
 
+
 /* FORM IN BODY STYLING */
-form {
-  height: 777px;
+.thanks {
+  height: 500px;
   min-width: 450px;
   max-width: 500px;
   background-color: rgba(255, 255, 255, 0.13);
@@ -28,45 +30,32 @@ form {
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   padding: 50px 35px;
+  color: #ffffff
 }
 
-form * {
+.thanks * {
+  /* here if we put a star * then it couldnt be overwritten */
   font-family: 'Poppins', sans-serif;
-  color: #ffffff;
+  /* color: #ffffff; */
+
   letter-spacing: 0.5px;
   outline: none;
   border: none;
 }
 
-form h3 {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 42px;
+.thanks--title {
+  font-size: 4rem;
   text-align: center;
+  font-weight: 900;
+  margin-top: 2rem;
 }
 
-label {
-  display: block;
-  margin-top: 30px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-input {
-  display: block;
-  height: 50px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.07);
-  border-radius: 3px;
-  padding: 0 10px;
-  margin-top: 8px;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-/* TEXT FEILD PLACEHOLDER STYLING */
-::placeholder {
-  color: #696969;
+.thanks--message {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
 }
 
 button {
@@ -80,6 +69,8 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-.to-do-later{
-  color: red;
+
+
+.button-last:hover{
+background-color:   #23a2f6;
 }
