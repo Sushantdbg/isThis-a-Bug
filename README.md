@@ -31,13 +31,12 @@
 #### 04.Admin Sign Up  ✅
 
 
-#### 05.Signup Conformation User       ✅
+#### 05.Signup Conformation User       |
+####                                   |>>>> Merged ✅
+#### 06.Signup Conformation Admin      |
 
 
-#### 06.Signup Conformation Admin     ✅
-
-
-#### 07.Reporting Page
+#### 07.Reporting Page      ✅
 
 
 #### 08.How to write a good bug report
@@ -56,3 +55,6 @@
 
 
 #### 13.About Us      ✅
+
+
+#### 14. Navbar
