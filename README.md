@@ -24,13 +24,13 @@
 
 #### 01.DDos Screen     ✅
 
-#### 02.Login Page      ✅
+#### 02.Login Page      ✅✅
 
 #### 03.User Sign Up   ✅
 
-#### 04.Admin Sign Up  ✅
+#### 04.Admin Sign Up   ✅
 
-#### 05.Signup Conformation User + Admin  ✅
+#### 05.Signup Conformation User + Admin  ✅✅
 
 #### 06.Reporting Page      ✅
 
