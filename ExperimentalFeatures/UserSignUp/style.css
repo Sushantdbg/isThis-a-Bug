@@ -80,6 +80,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-.to-do-later{
+
+.to-do-later {
   color: red;
 }
