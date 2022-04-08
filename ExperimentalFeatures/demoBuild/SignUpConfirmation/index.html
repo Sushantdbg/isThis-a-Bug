@@ -19,7 +19,14 @@
   <div class="thanks">
     <p class="thanks--title">THANK YOU!</p>
     <p class="thanks--message">You have been successfully Signed up</p>
-    <button>Let's Go to Login Page</button>
+      <button type="button" onclick="window.location.href='../PortalLogin/index.html'">Let's Go to Login Page</button>
+    <!-- <button>Let's Go to Login Page</button> -->
+
+    <script type="text/javascript">
+      setTimeout(function() {
+        window.location.href = '../PortalLogin/index.html'; // the redirect goes here
+      }, 2500);
+    </script>
   </div>
 </body>
 
