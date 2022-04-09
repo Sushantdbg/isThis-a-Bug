@@ -13,9 +13,6 @@ body {
 .Official-logo {
   width: 72px;
   display: flex;
-  /* justify-content: center;
-align-items: center; */
-  /* margin-left: 1%; */
   padding: 0;
   display: inline-block;
   margin-right: 2%;
@@ -23,7 +20,6 @@ align-items: center; */
 }
 
 .nav--icon--login {
-  /* filter: invert(); */
   width: 2.5rem;
 }
 
@@ -35,7 +31,6 @@ align-items: center; */
 
 .nav--logo_text {
   color: white;
-  /* width: 10%; */
   padding-right: 5%;
   font-size: 1.5rem;
 }
@@ -73,7 +68,6 @@ align-items: center; */
 }
 
 .nav-list {
-  /* width: 50%; */
   display: flex;
   align-items: center;
 }
@@ -100,9 +94,6 @@ dl, ol, ul {
   margin-bottom: 0;
 }
 
-/* ol, ul {
-    padding-left: 8rem;
-} */
 ul {
   margin-left: 0;
   margin-right: 0;
@@ -229,9 +220,6 @@ nav ul li .nav-list-anc {
 /* <========================================= TEST =====================================> */
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-/* * {
-	box-sizing: border-box;
-} */
 body {
   /* background-image: linear-gradient(45deg, #7175da, #9790F2); */
   font-family: 'Muli', sans-serif;
@@ -253,7 +241,7 @@ body {
   max-width: 100%;
   margin: 20px;
   overflow: hidden;
-  width:1200px;
+  width: 1200px;
 }
 
 .course h6 {
@@ -276,7 +264,7 @@ body {
 }
 
 .no-two.course-preview {
-  background-color: green ;
+  background-color: green;
   color: #fff;
   padding: 30px;
   max-width: 250px;
@@ -310,7 +298,8 @@ body {
   position: relative;
   width: 100%;
 }
-.course-info h2{
+
+.course-info h2 {
   max-width: 669px;
 }
 
@@ -329,16 +318,6 @@ body {
   width: 100%;
 }
 
-/* .progress::after {
-	border-radius: 3px;
-	background-color: #2A265F;
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 5px;
-	width: 66%;
-} */
 .no-one.progress::after {
   border-radius: 3px;
   background-color: #2A265F;
@@ -371,6 +350,7 @@ body {
   height: 5px;
   width: 69%;
 }
+
 .no-four.progress::after {
   border-radius: 3px;
   background-color: red;
@@ -384,7 +364,6 @@ body {
 
 .progress-text {
   font-size: 14px;
-  /* opacity: 0.6; */
   letter-spacing: 1px;
   color: black;
 }
