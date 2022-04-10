@@ -1,5 +1,7 @@
 /* EXPERIMENTAL AREA TOUCH AT YOUR OWN RISK */
 /* ALL CSS/ GLOBAL */
+/* I want to get the below in "su--confirmation" but
+can't */
 *,
 *:before,
 *:after {
@@ -10,12 +12,13 @@
 }
 
 /* BODY CSS */
+/* same here i wan't to get this to the "su--confirmation" but can't */
 body {
   background-color: #080710;
 }
 
 /* FORM IN BODY STYLING */
-.thanks {
+.su--confirmation {
   height: 500px;
   min-width: 450px;
   max-width: 500px;
@@ -29,9 +32,15 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   padding: 50px 35px;
+  /* if i put the below why does the page breaks lol */
+  /* font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none; */
 }
 
-.thanks {
+.su--confirmation {
   /* here if we put a star * then it couldnt be overwritten */
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
@@ -40,14 +49,14 @@ body {
   border: none;
 }
 
-.thanks--title {
+.su--title {
   font-size: 4rem;
   text-align: center;
   font-weight: 900;
   margin-top: 2rem;
 }
 
-.thanks--message {
+.su--message {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 1.5rem;
@@ -55,7 +64,7 @@ body {
   font-weight: 400;
 }
 
-button {
+.su--button {
   margin-top: 50px;
   width: 100%;
   background-color: #ffffff;

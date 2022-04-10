@@ -1,8 +1,12 @@
-* {
+/* MY BUGS AND ISSUE TALK SHOW
+1. there's a big white bar/block above the form lol (fixed: there was a
+to margin in "mainpage--form")
+*/
+.main--form--page * {
   font-family: poppins;
 }
 
-body {
+.main--form--page {
   /* letter-spacing: -2px; */
   margin: 0;
   padding: 0;
@@ -11,7 +15,7 @@ body {
 
 /* <========================== DEFAULT ADDED CSS ============================> */
 /* MAIN SECTION MAYBE */
-input[type=text], select {
+.mp--input--field [type=text], select {
   /* width: 50%; */
   padding: 8px 20px;
   margin: 8px 0;
@@ -21,7 +25,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+.mp--input--field [type=submit] {
   /* width: 100%; */
   background-color: #4CAF50;
   color: white;
@@ -32,10 +36,11 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.mp--input--field [type=submit]:hover {
   background-color: #45a049;
 }
 
+/* I have to take care of this with classes */
 div {
   border-radius: 5px;
   /* background-color: #f2f2f2; */
@@ -45,8 +50,8 @@ div {
 }
 
 /* <==================================== COMPLAINT RAISER FORM ========================================>  */
-form {
-  margin-top: 70px;
+.mainpage--form {
+  /* margin-top: 70px; */
   /* height: 820px; */
   width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
@@ -62,7 +67,7 @@ form {
   padding: 20px 35px;
 }
 
-form * {
+.mainpage--form * {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -70,7 +75,7 @@ form * {
   border: none;
 }
 
-input {
+.mp--input--field {
   display: block;
   height: 50px;
   width: 100%;
@@ -82,7 +87,7 @@ input {
   font-weight: 300;
 }
 
-label {
+.mp--all--labels {
   display: flow-root;
 }
 
@@ -90,7 +95,7 @@ label {
   width: 50%;
   display: inline-block;
 } */
-.form-select, .form-control {
+.form-control {
   /* width: 50%; */
   display: inline-block;
 }
@@ -135,7 +140,7 @@ label {
   width: 170%;
 }
 
-.Comp-head {
+.mainpage--title {
   font-size: 3rem;
   font-weight: 600;
   text-align: center;
@@ -147,14 +152,14 @@ label {
   /* margin-left: 1%;
   padding-left: 10%;
 } */
-.div-date {
+.mainpage--date--div {
   display: inline-block;
   padding: 0;
   text-align: left;
   margin-left: 9%;
 }
 
-.date-form {
+.mainpage--date--form {
   display: inline-block;
 }
 
@@ -222,7 +227,7 @@ textarea {
   color: #FFCC33 !important;
 }
 
-option {
+.mp-option-all {
   background-color: #28272f;
   color: white;
 }
@@ -250,7 +255,7 @@ option {
   padding-right: 0;
 }
 
-input {
+.mp--input--field {
   border-radius: 10px;
 }
 
@@ -273,7 +278,7 @@ input {
   margin-bottom: 100px;
 }
 
-.button-last:hover {
+.mp-button-last:hover {
   background-color: #23a2f6;
 }
 
