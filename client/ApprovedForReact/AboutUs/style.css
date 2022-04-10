@@ -1,14 +1,4 @@
-* {
-  font-family: poppins;
-}
-
-body {
-  /* letter-spacing: -2px; */
-  margin: 0;
-  padding: 0;
-  background-color: #080710;
-}
-
+/* How to fix this * man want to get rid of the rid of asterisk */
 *,
 *:before,
 *:after {
@@ -18,17 +8,24 @@ body {
   box-sizing: border-box;
 }
 
+.about--body {
+  font-family: poppins;
+  /* letter-spacing: -2px; */
+  background-color: #080710;
+}
+
 /* BODY CSS */
-body {
+.about {
+  margin: 0;
+  padding: 0;
   background-color: #080710;
 }
 
 /* FORM IN BODY STYLING */
 .about {
-  margin: 30px;
-  margin-top: 70px;
+  /* margin: 30px; */
+  /* margin-top: 70px; */
   margin-left: 10%;
-  ;
   /* height: 820px; */
   width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
@@ -41,7 +38,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   padding: 50px 60px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   margin-left: 20%;
 }
 
@@ -72,7 +69,7 @@ body {
   font-weight: 100;
 }
 
-button {
+.about-button-last {
   margin-top: 40px;
   width: 100%;
   background-color: #ffffff;
@@ -84,6 +81,6 @@ button {
   cursor: pointer;
 }
 
-.button-last:hover {
+.about-button-last:hover {
   background-color: #23a2f6;
 }
