@@ -1,20 +1,28 @@
 /* EXPERIMENTAL AREA TOUCH AT YOUR OWN RISK */
 /* ALL CSS/ GLOBAL */
-*,
+/* *,
 *:before,
 *:after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
+} */
 /* BODY CSS */
+/* I want to move this into some sort of div with a class but for some reasons it just flashes(makes it white) the
+website lmao */
 body {
   background-color: #080710;
 }
 
+/* took the below from 3-9 */
+.login--body * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* FORM IN BODY STYLING */
-form {
+.login--formall {
   height: 520px;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.13);
@@ -29,7 +37,7 @@ form {
   padding: 50px 35px;
 }
 
-form * {
+.login--formall * {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -37,21 +45,21 @@ form * {
   border: none;
 }
 
-form h3 {
+.login--form--h3 {
   font-size: 32px;
   font-weight: 500;
   line-height: 42px;
   text-align: center;
 }
 
-label {
+.login--form--label {
   display: block;
   margin-top: 30px;
   font-size: 16px;
   font-weight: 500;
 }
 
-input {
+.login--form--input {
   display: block;
   height: 50px;
   width: 100%;
@@ -64,11 +72,13 @@ input {
 }
 
 /* TEXT FEILD PLACEHOLDER STYLING */
+/* the below placeholder is weired it just works
+and doesnt get affected if i do stuff like ".login--form--input > placeholder" */
 ::placeholder {
   color: #696969;
 }
 
-button {
+.login--form--button {
   margin-top: 50px;
   width: 100%;
   background-color: #ffffff;

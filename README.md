@@ -34,13 +34,13 @@
 
 #### 06.Reporting Page      ✅
 
-#### 07.How to write a good bug report
+#### 07.How to write a good bug report  ✅
 
 #### 08.Thank you after a report page  ✅
 
 #### 09.FAQ     ✅
 
-#### 10.User Past and Current Report Status
+#### 10.User Past and Current Report Status ✅
 
 #### 11.Admin Report management
 
