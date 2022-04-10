@@ -1,4 +1,4 @@
-# HCL-CBR
+# isThis-a-Bug
 
 ### This is a croudsourced bug alert system for huge software and products
 
@@ -20,17 +20,17 @@
 <br/>
 <br/>
 
-# GUI Screens to Build
+# GUI Components to Build
 
 #### 01.DDos Screen     ✅
 
-#### 02.Login Page      ✅✅
+#### 02.Login Page      ✅
 
 #### 03.User Sign Up   ✅
 
 #### 04.Admin Sign Up   ✅
 
-#### 05.Signup Conformation User + Admin  ✅✅
+#### 05.Signup Conformation User + Admin  ✅
 
 #### 06.Reporting Page      ✅
 
