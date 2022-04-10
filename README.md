@@ -1,6 +1,6 @@
 # isThis-a-Bug
 
-### This is a croudsourced bug alert system for huge software and products
+### This is a crowdsourced bug alert system for huge software and products
 
 <br/>
 <br/>
