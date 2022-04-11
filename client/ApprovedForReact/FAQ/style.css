@@ -1,30 +1,33 @@
-* {
+.faq--all * {
   font-family: poppins;
 }
 
-body {
+.faq--all {
   margin: 0;
   padding: 0;
   background-color: #080710;
 }
 
-*,
+/* *,
 *:before,
 *:after {
+
+
+} */
+/* BODY CSS */
+/* this is a newly created one i pulled many things
+from tag targeted styles */
+.faq--all {
   font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-/* BODY CSS */
-body {
   background-color: #080710;
 }
 
 /* FORM IN BODY STYLING */
 .faq {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   max-height: 1111px;
   max-width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
@@ -38,7 +41,7 @@ body {
 
 .faq {
   /* here if we put a star * then it couldnt be overwritten */
-  margin-top: 80px;
+  /* margin-top: 80px; */
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -63,7 +66,7 @@ body {
   font-weight: 100;
 }
 
-button {
+.faq-button-last {
   margin-top: 40px;
   width: 100%;
   background-color: #ffffff;
@@ -75,6 +78,6 @@ button {
   cursor: pointer;
 }
 
-.button-last:hover {
+.faq-button-last:hover {
   background-color: #23a2f6;
 }
