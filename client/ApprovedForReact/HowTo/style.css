@@ -1,11 +1,11 @@
-* {
+.about--all * {
   font-family: poppins;
 }
 
-body {
-  /* letter-spacing: -2px; */
+.about--all {
   margin: 0;
   padding: 0;
+  height: 100%;
   background-color: #080710;
 }
 
@@ -19,29 +19,25 @@ body {
 }
 
 /* BODY CSS */
-body {
+.about--all {
   background-color: #080710;
 }
 
 /* FORM IN BODY STYLING */
 .about {
   margin: 30px;
-  margin-top: 70px;
+  /* margin-top: 70px; */
   margin-left: 10%;
-  ;
-  /* height: 820px; */
   width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
   position: relative;
-  /* transform: translate(-50%, -50%); */
-  /* top: 50%;*/
-  /* left: 50%; */
   border-radius: 10px;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   padding: 50px 60px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+  margin-top: 0;
   margin-left: 20%;
 }
 
@@ -52,7 +48,6 @@ body {
   letter-spacing: 0.5px;
   outline: none;
   border: none;
-  /* margin-top: 80px; */
 }
 
 .about--title {
@@ -72,7 +67,7 @@ body {
   font-weight: 100;
 }
 
-button {
+.about-button-last {
   margin-top: 40px;
   width: 100%;
   background-color: #ffffff;
@@ -84,6 +79,6 @@ button {
   cursor: pointer;
 }
 
-.button-last:hover {
+.about-button-last:hover {
   background-color: #23a2f6;
 }

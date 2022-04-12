@@ -1,6 +1,14 @@
 /* ALL/GLOBAL CSS */
-* {
+/* There's a margin of about 8px all round the body sec or i may say div
+which have to be get rid at the react rendering time i guess  */
+/* OK it went long as well fix it at the react time */
+.form--submitted--all * {
   background-color: #22292f;
+  padding-top: 69px;
+  padding-bottom: 69px;
+}
+
+.form--submitted {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   max-width: 750px;
@@ -8,27 +16,28 @@
 }
 
 /* MAIN BODY CSS */
-.body--title {
+.fs--body--title {
   color: #fff;
   font-size: 5rem;
   font-weight: 700;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
+  margin-top: 0;
   margin-bottom: 0;
 }
 
-.body--gif {
+.fs--body--gif {
   margin-top: 0;
   margin-bottom: 0rem;
 }
 
-.bottom--text {
+.fs--bottom--text {
   color: #696969;
   font-size: 1.5rem;
   max-width: 75%;
   margin: auto;
 }
 
-button {
+.fs--button {
   margin-top: 50px;
   width: 90%;
   background-color: #ffffff;
