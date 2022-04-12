@@ -1,26 +1,43 @@
+/* there's a white bar at the bottom but due to the fact that i got rid
+of the translate of the div and as i was trying to port the things from
+tags to classes so as to get rid of conflicts at React */
 /* EXPERIMENTAL AREA TOUCH AT YOUR OWN RISK */
 /* ALL CSS/ GLOBAL */
-*,
+/* *,
 *:before,
 *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+/* Add a body margin zero in the public css for react */
+/* body {
+  margin: 0;
+} */
+.user--signup--all * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 /* BODY CSS */
-body {
+.user--signup--all {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #080710;
+  /* height: 1000px; */
+  margin: 0;
 }
 
 /* FORM IN BODY STYLING */
-form {
-  height: 777px;
+.user--signup--form {
+  margin: auto;
+  height: 750px;
   min-width: 450px;
   max-width: 500px;
   background-color: rgba(255, 255, 255, 0.13);
-  position: absolute;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* transform: translate(-50%, -50%); */
   top: 50%;
   left: 50%;
   border-radius: 10px;
@@ -30,7 +47,7 @@ form {
   padding: 50px 35px;
 }
 
-form * {
+.user--signup--form * {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -38,21 +55,21 @@ form * {
   border: none;
 }
 
-form h3 {
+.user--form--title {
   font-size: 32px;
   font-weight: 500;
   line-height: 42px;
   text-align: center;
 }
 
-label {
+.user--signup--label {
   display: block;
   margin-top: 30px;
   font-size: 16px;
   font-weight: 500;
 }
 
-input {
+.user--signup--input {
   display: block;
   height: 50px;
   width: 100%;
@@ -69,7 +86,7 @@ input {
   color: #696969;
 }
 
-button {
+.user--signup--button {
   margin-top: 50px;
   width: 100%;
   background-color: #ffffff;
@@ -79,8 +96,4 @@ button {
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.to-do-later {
-  color: red;
 }
