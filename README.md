@@ -17,7 +17,7 @@
 | How to write a good bug report      |      ✅     |          ✅         |                       |                    |                    |            |                  |
 | Thank you after a report page       |      ✅     |          ✅         |                       |                    |                    |            |                  |
 | FAQ                                 |      ✅     |          ✅         |                       |                    |                    |            |                  |
-| User Past and Current Report Status |      ✅     |                    |                       |                    |                    |            |                  |
+| User Past and Current Report Status |      ✅     |          ✅         |                       |                    |                    |            |                  |
 | Admin Report management             |            |                    |                       |                    |                    |            |                  |
 | About Us                            |      ✅     |          ✅         |                       |                    |                    |            |                  |
-| Navbar                              |            |                    |                       |                    |                    |            |                  |
+| Navbar                              |      ✅     |          ✅         |                       |                    |                    |            |                  |
