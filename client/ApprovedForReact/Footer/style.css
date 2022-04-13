@@ -1,0 +1,24 @@
+.footer--all * {
+  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer--background {
+  margin: 0;
+  padding: 0;
+  height: 85px;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+  background-color: #080710;
+}
+
+.footer--text {
+  color: white;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-weight: 900;
+}
