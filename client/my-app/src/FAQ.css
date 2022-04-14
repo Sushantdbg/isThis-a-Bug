@@ -1,0 +1,83 @@
+.faq--all * {
+  font-family: poppins;
+}
+
+.faq--all {
+  margin: 0;
+  padding: 0;
+  background-color: #080710;
+}
+
+/* *,
+*:before,
+*:after {
+
+
+} */
+/* BODY CSS */
+/* this is a newly created one i pulled many things
+from tag targeted styles */
+.faq--all {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #080710;
+}
+
+/* FORM IN BODY STYLING */
+.faq {
+  /* margin-bottom: 1rem; */
+  max-height: 1111px;
+  max-width: 60%;
+  background-color: rgba(255, 255, 255, 0.13);
+  margin: 50px auto 50px auto;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 60px;
+}
+
+.faq {
+  /* here if we put a star * then it couldnt be overwritten */
+  /* margin-top: 80px; */
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+.faq--title {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.faq--ques {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.faq--ans {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.faq-button-last {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq-button-last:hover {
+  background-color: #23a2f6;
+}
