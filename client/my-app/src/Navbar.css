@@ -1,0 +1,93 @@
+.navbar--all * {
+  font-family: poppins;
+}
+
+.navbar--all {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #080710;
+}
+
+/* BODY CSS */
+.background1 {
+  margin: 0;
+  padding: 0;
+  background-color: #080710;
+  height: 85px;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+}
+
+/* NAVBAR START */
+.Official-logo {
+  width: 72px;
+  display: flex;
+  padding: 0;
+  display: inline-block;
+  color: antiquewhite;
+}
+
+.nav--icon--login {
+  filter: invert();
+  width: 2.5rem;
+  margin-right: 55px;
+}
+
+.navbar-brand {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav--logo--text {
+  color: white;
+  padding-right: 5%;
+  padding-left: 44px;
+  font-weight: 669;
+  font-size: 2rem;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list > li {
+  list-style: none;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list > li > a {
+  text-decoration: none;
+  padding: 0px 15px 0 15px;
+  color: white;
+}
+
+.navlist--login {
+  margin-right: 20px;
+}
+
+.nav-list > li .nav-list-anc:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.background1 > ul {
+  margin: 0;
+}

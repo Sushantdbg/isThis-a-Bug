@@ -1,8 +1,8 @@
-.navbar--all * {
+.footer--all * {
   font-family: poppins;
 }
 
-.navbar--all {
+.footer--all {
   font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
@@ -36,7 +36,7 @@
   margin-right: 55px;
 }
 
-.navbar-brand {
+.footer-brand {
   display: flex;
   margin: 0;
   padding: 0;
@@ -50,7 +50,7 @@
   margin-right: auto;
 }
 
-.navbar {
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;

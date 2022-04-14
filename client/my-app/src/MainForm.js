@@ -1,9 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import './MainForm.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
-export default function MainPageForm(){
+
+export default function MainForm(){
   return(
-    
+    <>
+    <Navbar />
     <div class="main--form--page">
 
       <form class="mainpage--form" action="index.html" method="post">
@@ -11,25 +15,25 @@ export default function MainPageForm(){
         <div class="mainpage--date--div">
           <div class="mainpage--date--form">
             <label class="mp--all--labels" for="dateOfEvent"><span class="">Defect Reporting Date</span></label>
-            <input type="date" name="" value="" class="mp--input--field form-control date-input">
+            <input type="date" name="" value="" class="mp--input--field form-control date-input"/>
           </div>
         </div>
 
         <div class="div-time">
           <div class="time-form">
             <label class="mp--all--labels" for="" class="time-label"><span class="">Time of Event</span></label>
-            <input type="time" name="" value="" class="mp--input--field time-input form-control">
+            <input type="time" name="" value="" class="mp--input--field time-input form-control"/>
           </div>
         </div>
 
         <div>
           <label class="mp--all--labels" for="fname" class="accu-name">Title/Summary</label>
-          <input type="text" id="fname" name="firstname" placeholder="Keep under 20 words..." class="mp--input--field guilty-name form-control">
+          <input type="text" id="fname" name="firstname" placeholder="Keep under 20 words..." class="mp--input--field guilty-name form-control"/>
         </div>
 
         <div>
           <label class="mp--all--labels" for="fname" class="accu-name">Your Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Enter your name here" class="mp--input--field  guilty-name form-control">
+          <input type="text" id="fname" name="firstname" placeholder="Enter your name here" class="mp--input--field  guilty-name form-control"/>
         </div>
 
         <div class="drug-rel">
@@ -53,7 +57,7 @@ export default function MainPageForm(){
 
         <div>
           <label class="mp--all--labels" for="fname" class="accu-name">Website URL</label>
-          <input type="text" id="fname" name="firstname" placeholder="URL of the illegal trade website" class="mp--input--field  guilty-name form-control">
+          <input type="text" id="fname" name="firstname" placeholder="URL of the illegal trade website" class="mp--input--field  guilty-name form-control"/>
         </div>
 
         <div class="drug-rel">
@@ -62,7 +66,7 @@ export default function MainPageForm(){
             <option class="mp-option-all" value="0">--Please choose an option--</option>
             <option class="mp-option-all" value="1">Testing</option>
             <option class="mp-option-all" value="2">Review</option>
-            <option class="mp-option-all" value="3">Walkthrough/option>
+            <option class="mp-option-all" value="3">Walkthrough</option>
           </select>
         </div>
 
@@ -131,12 +135,12 @@ export default function MainPageForm(){
 
         <div class="input-group">
           <label class="mp--all--labels" class="input-group-text" for="inputGroupFile01"> Upload relevant Screenshots </label>
-          <input type="file" class="mp--input--field form-control add-file" id="inputGroupFile01" placeholder="">
+          <input type="file" class="mp--input--field form-control add-file" id="inputGroupFile01" placeholder=""/>
         </div>
 
         <div class="col-4">
           <div class="form-check">
-            <input class="mp--input--field  form-check-input" type="checkbox" id="gridCheck">
+            <input class="mp--input--field  form-check-input" type="checkbox" id="gridCheck"/>
             <label class="mp--all--labels" class="form-check-label" for="gridCheck">
               I agree with Privacy Policy
             </label>
@@ -145,7 +149,7 @@ export default function MainPageForm(){
 
         <div class="col-4">
           <div class="form-check">
-            <input class="mp--input--field  form-check-input" type="checkbox" id="gridCheck">
+            <input class="mp--input--field  form-check-input" type="checkbox" id="gridCheck"/>
             <label class="mp--all--labels" class="form-check-label" for="gridCheck">
               I have checked data for any errors
             </label>
@@ -159,6 +163,8 @@ export default function MainPageForm(){
       </form>
 
     </div>
+    <Footer />
 
+    </>
   )
 }

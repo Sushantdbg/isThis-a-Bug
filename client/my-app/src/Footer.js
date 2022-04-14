@@ -1,11 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+import './Footer.css';
 
 export default function Footer(){
   return(
-    <div className="footer--content">
-    <h1 className="footer--text"> © Sushant Kumar 2022 </h1>
+    <>
+    <div class="footer--all">
+      <nav class="footer--background">
+        <h3 class="footer--text">Made with 💖 by Sushant</h3>
+      </nav>
     </div>
-  )
+    </>
+    )
 }
