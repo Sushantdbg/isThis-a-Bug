@@ -161,9 +161,9 @@ export default function MainForm(){
         </div>
 
       </form>
-      <Footer />
 
     </div>
+    <Footer />
 
     </>
   )

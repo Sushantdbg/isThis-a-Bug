@@ -42,7 +42,7 @@ to margin in "mainpage--form")
 
 /* I have to take care of this with classes */
 div {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   /* background-color: #f2f2f2; */
   /* background-color: #021725; */
   color: floralwhite;
@@ -53,6 +53,7 @@ div {
 .mainpage--form {
   /* margin-top: 70px; */
   /* height: 820px; */
+  border-radius: 0;
   width: 60%;
   background-color: rgba(255, 255, 255, 0.13);
   position: relative;

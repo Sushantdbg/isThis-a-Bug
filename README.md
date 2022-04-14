@@ -9,9 +9,9 @@
 |                                     | HTML + CSS | APPROVED FOR REACT | READY & PORT TO REACT | REACT WITH ROUTING | STABLE MERN CONFIG | BETA BUILD | PRODUCTION BUILD |
 | ----------------------------------- | :--------: | :----------------: | :-------------------: | :----------------: | :----------------: | :--------: | :--------------: |
 | DDos Screen                         |      ✅     |          ✅         |                       |                    |                    |            |                  |
-| Login Page                          |      ✅     |          ✅         |                       |                    |                    |            |                  |
+| Login Page                          |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
 | User Sign Up                        |      ✅     |          ✅         |                       |                    |                    |            |                  |
-| Admin Sign Up                       |      ✅     |          ✅         |                       |                    |                    |            |                  |
+| Admin Sign Up                       |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
 | Signup Conformation User + Admin    |      ✅     |          ✅         |                       |                    |                    |            |                  |
 | Reporting Page                      |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
 | How to write a good bug report      |      ✅     |          ✅         |                       |                    |                    |            |                  |
