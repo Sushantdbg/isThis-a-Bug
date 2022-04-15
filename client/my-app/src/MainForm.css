@@ -68,7 +68,7 @@ div {
   padding: 20px 35px;
 }
 
-.mainpage--form * {
+.mainpage--form  {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -82,14 +82,17 @@ div {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.07);
   border-radius: 3px;
-  padding: 0 10px;
+  padding: 6px 10px;
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 300;
 }
 
 .mp--all--labels {
-  display: flow-root;
+  display: block;
+}
+label{
+  display: block;
 }
 
 /* .form-control{
@@ -193,7 +196,7 @@ div {
 }
 
 .rep-select {
-  width: 50%;
+  width: 100%;
 }
 
 .drug-rel {

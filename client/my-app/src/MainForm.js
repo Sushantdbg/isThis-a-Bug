@@ -46,6 +46,16 @@ export default function MainForm(){
         </div>
 
         <div className="drug-rel">
+          <label className="mp--all--labels" for="" className="custom-select">Release/Build version</label>
+          <select className="form-control" className="rep-select">
+            <option className="mp-option-all" value="0">--Please choose an option--</option>
+            <option className="mp-option-all" value="1">Current Live Production Build</option>
+            <option className="mp-option-all" value="2">Beta Build</option>
+            <option className="mp-option-all">Alpha Build</option>
+          </select>
+        </div>
+
+{/*        <div className="drug-rel">
           <label className="mp--all--labels" for="" className="sever"> Release/Build version</label>
           <select className="form-control">
             <option className="mp-option-all" value="">--Please choose an option--</option>
@@ -53,7 +63,7 @@ export default function MainForm(){
             <option className="mp-option-all">Beta Build</option>
             <option className="mp-option-all">Alpha Build</option>
           </select>
-        </div>
+        </div>*/}
 
         <div>
           <label className="mp--all--labels" for="fname" className="accu-name">Website URL</label>
@@ -72,7 +82,7 @@ export default function MainForm(){
 
         <div className="drug-rel">
           <label className="mp--all--labels" for="" className="sever">Defect/Enhancement</label>
-          <select className="form-control">
+          <select className="form-control" className="rep-select">
             <option className="mp-option-all" value="">--Please choose an option--</option>
             <option className="mp-option-all">Defect</option>
             <option className="mp-option-all">Enhancement</option>
@@ -94,7 +104,7 @@ export default function MainForm(){
 
         <div className="drug-rel">
           <label className="mp--all--labels" for="" className="sever">Priority</label>
-          <select className="form-control">
+          <select className="form-control" className="rep-select">
             <option className="mp-option-all" value="">--Please choose an option--</option>
             <option className="mp-option-all">Mild</option>
             <option className="mp-option-all">Priority</option>
@@ -116,7 +126,7 @@ export default function MainForm(){
 
         <div className="drug-rel">
           <label className="mp--all--labels" for="" className="sever">Status</label>
-          <select className="form-control">
+          <select className="form-control" className="rep-select">
             <option className="mp-option-all" value="">--Please choose an option--</option>
             <option className="mp-option-all">Present</option>
             <option className="mp-option-all">Patched</option>
