@@ -7,21 +7,24 @@ import PortalSignUpSuccess from './PortalSignUpSuccess'
 import ThankYouAfterReport from './ThankYouAfterReport'
 import HowTo from './HowTo'
 import FAQ from './FAQ'
+import UserConsole from './UserConsole'
 
 
-//<MainForm />
+
 //<AdminSignUp />
 //<PortalLogin />
 //<UserSignUp />
 // <PortalSignUpSuccess />
 // <ThankYouAfterReport />
 // <HowTo />
+// <FAQ />
+//   <MainForm />
 
 
 export default function App(){
   return(
     <>
-    <FAQ />
+    <UserConsole />
     </>
   )
 }

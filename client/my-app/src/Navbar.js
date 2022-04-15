@@ -13,7 +13,7 @@ export default function Navbar(){
           <li><a className="nav-list-anc" href="../FAQ/index.html">FAQ</a></li>
           <li><a className="nav-list-anc navlist--login" href="../PortalLogin/index.html">Login</a></li>
         </ul>
-        <img src='./key-lock.png' className="nav--icon--login" />
+        <img src='./assets/key-lock.png' className="nav--icon--login" />
       </nav>
     </div>
 
