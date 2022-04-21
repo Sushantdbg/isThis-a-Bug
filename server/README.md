@@ -2,5 +2,5 @@
 
 ### Dependencies I have installed
 ```
-npm install express body-parser nodemon mongoose
+npm install express body-parser nodemon mongoose cors
 ```
