@@ -4,3 +4,8 @@
 ```
 npm install express body-parser nodemon mongoose cors
 ```
+### Use below to run server
+
+```BASH
+npm run server
+```
