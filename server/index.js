@@ -1,15 +1,19 @@
-const express = require('express')
+import express from 'express';
+import bodyParser from 'body-parser';
+import mongoose from 'mongoose';
+import cors from 'cors';
+import jwt from 'jsonwebtoken';
 const app = express()
-const cors = require('cors')
-const mongoose = require('mongoose')
-const User = require('./models/user.model')
-const jwt = require('jsonwebtoken')
+
+
+import User from './models/user.model.js'
+
 const bcrypt = require('bcryptjs')
 
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('mongodb://localhost:27017/full-mern-stack-video')
+mongoose.connect('mongodb://localhost:27017/signup')
 
 app.post('/api/register', async (req, res) => {
 	console.log(req.body)
