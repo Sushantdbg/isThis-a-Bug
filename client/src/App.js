@@ -24,7 +24,7 @@ import UserConsole from './UserConsole'
 export default function App(){
   return(
     <>
-    <UserConsole />
+    <UserSignUp />
     </>
-  )
+)
 }

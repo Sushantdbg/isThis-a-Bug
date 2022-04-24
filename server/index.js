@@ -2,27 +2,96 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
+import jwt from 'jsonwebtoken';
+const app = express()
 
-// importing the routes here
-import postRoutes from './routes/posts.js'
 
-const app = express();
+import User from './models/user.model.js'
 
-app.use('/posts',postRoutes);
-app.use(bodyParser.json({limit: "30mb", extended: true}));
-app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
-app.use(cors());
+const bcrypt = require('bcryptjs')
 
-// the below is the connection url for our connection with the mongodb atlas cluster with the user that we have created
-// this thing needs to be private and we will do the same before the full fledged post of the alpha/beta channel
-const CONNECTION_URL = "mongodb+srv://testuser01:<pass>.00@isthis-a-bug.70aj2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+app.use(cors())
+app.use(express.json())
 
-const PORT = process.env.PORT || 5000;
+mongoose.connect('mongodb://localhost:27017/signup')
 
-mongoose.connect(CONNECTION_URL , {useNewUrlParser: true ,useUnifiedTopology:true})
-                  .then(() => app.listen(PORT, () => console.log(`Server is up and running on the port: ${PORT}`)))
-                  .catch((error) => console.log(error.message));
+app.post('/api/register', async (req, res) => {
+	console.log(req.body)
+	try {
+		const newPassword = await bcrypt.hash(req.body.password, 10)
+		await User.create({
+			name: req.body.name,
+			email: req.body.email,
+			password: newPassword,
+		})
+		res.json({ status: 'ok' })
+	} catch (err) {
+		res.json({ status: 'error', error: 'Duplicate email' })
+	}
+})
 
-// the below is depricated and no loger necessary ?
-// https://stackoverflow.com/questions/69030963/error-usefindandmodify-is-an-invalid-option
-// mongoose.set('useFindAndModify',false);
+app.post('/api/login', async (req, res) => {
+	const user = await User.findOne({
+		email: req.body.email,
+	})
+
+	if (!user) {
+		return { status: 'error', error: 'Invalid login' }
+	}
+
+	const isPasswordValid = await bcrypt.compare(
+		req.body.password,
+		user.password
+	)
+
+	if (isPasswordValid) {
+		const token = jwt.sign(
+			{
+				name: user.name,
+				email: user.email,
+			},
+			'secret123'
+		)
+
+		return res.json({ status: 'ok', user: token })
+	} else {
+		return res.json({ status: 'error', user: false })
+	}
+})
+
+app.get('/api/quote', async (req, res) => {
+	const token = req.headers['x-access-token']
+
+	try {
+		const decoded = jwt.verify(token, 'secret123')
+		const email = decoded.email
+		const user = await User.findOne({ email: email })
+
+		return res.json({ status: 'ok', quote: user.quote })
+	} catch (error) {
+		console.log(error)
+		res.json({ status: 'error', error: 'invalid token' })
+	}
+})
+
+app.post('/api/quote', async (req, res) => {
+	const token = req.headers['x-access-token']
+
+	try {
+		const decoded = jwt.verify(token, 'secret123')
+		const email = decoded.email
+		await User.updateOne(
+			{ email: email },
+			{ $set: { quote: req.body.quote } }
+		)
+
+		return res.json({ status: 'ok' })
+	} catch (error) {
+		console.log(error)
+		res.json({ status: 'error', error: 'invalid token' })
+	}
+})
+
+app.listen(1337, () => {
+	console.log('Server started on 1337')
+})
