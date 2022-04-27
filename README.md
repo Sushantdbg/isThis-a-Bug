@@ -12,6 +12,12 @@
 
 ## Languages and Libraries
 
-| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	|
+| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	|
 |:-------------------------------------------------------------------------:	|:-------------------------------------------------------------------------:	|---------------------------------------------------------------------------	|---------------------------------------------------------------------------	|---------------------------------------------------------------------------	|
 | <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	|
+
+
+
+| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img src="./Documentation/assets/readme/lang/css.png"> 	|
+|:------------------------------------------------------:	|:------------------------------------------------------:	|--------------------------------------------------------	|--------------------------------------------------------	|--------------------------------------------------------	|
+| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img src="./Documentation/assets/readme/lang/css.png"> 	| <img src="./Documentation/assets/readme/lang/css.png"> 	|
