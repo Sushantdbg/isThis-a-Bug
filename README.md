@@ -1,24 +1,13 @@
-# isThis-a-Bug
+<img style="width:100%" src="./Documentation/assets/readme/banner.png">
 
-### This is a crowdsourced bug alert system for huge software and products
 
-#### isThis-a-Bug is a web based application that provides facility for developer of big application and projects to get data about the bugs from their production build. Details such as the exact build of occurence, type of bug, decription, how to replicate and many more are easily accessible off the record. The system at any point can provide essential details of reported Bug, and their current status. With the data in hand Developers can work on them to improve their software and services for better User experience.
 
-# PROGRESS
+| <h2 style="margin-top:0" >Are you a user that come accross and you don't know where to report? or are you a developer going to release a large software & fear about bugs that went through the testing phase?</h2>	| <div align="right"> <img style="display:inline-block;" src="./Documentation/assets/readme/got-a-bug.gif" alt="Short Problem found gif" style="width:100%"/> </div > 	|
+|------------------------------------------------------------------------------------------------------------------	|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
 
-|                                     | HTML + CSS | APPROVED FOR REACT | READY & PORT TO REACT | REACT WITH ROUTING | STABLE MERN CONFIG | BETA BUILD | PRODUCTION BUILD |
-| ----------------------------------- | :--------: | :----------------: | :-------------------: | :----------------: | :----------------: | :--------: | :--------------: |
-| DDos Screen/Captcha                 |      ✅     |          ✅         |                       |                    |                    |            |                  |
-| Login Page                          |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| User Sign Up                        |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| Admin Sign Up                       |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| Signup Conformation User + Admin    |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| Reporting Page                      |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| How to write a good bug report      |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| Thank you after a report page       |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| FAQ                                 |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| User Past and Current Report Status |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| Admin Report management             |            |                    |                       |                    |                    |            |                  |
-| About Us                            |      ✅     |          ✅         |                       |                    |                    |            |                  |
-| Navbar                              |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
-| footer                              |      ✅     |          ✅         |           ✅           |                    |                    |            |                  |
+
+## isThis-a-Bug is your answer; This is a crowdsourced bug alert system for huge software and products
+
+### isThis-a-Bug is a web based application that provides facility for developer of big application and projects to get data about the bugs from their production build. Details such as the exact build of occurence, type of bug, decription, how to replicate and many more are easily accessible off the record. The system at any point can provide essential details of reported Bug, and their current status. With the data in hand Developers can work on them to improve their software and services for better User experience.
+
+## Tech Stack

@@ -11,20 +11,24 @@ import UserConsole from './UserConsole'
 
 
 
-//<AdminSignUp />
-//<PortalLogin />
-//<UserSignUp />
-// <PortalSignUpSuccess />
-// <ThankYouAfterReport />
+//
+//
+//
+//
+//
 // <HowTo />
-// <FAQ />
+//
 //   <MainForm />
 
 
 export default function App(){
   return(
     <>
-    <UserSignUp />
+    <FAQ />
     </>
 )
 }
+//<PortalLogin />
+//<UserSignUp />
+//<AdminSignUp />
+//<PortalSignUpSuccess />
