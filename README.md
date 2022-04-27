@@ -10,4 +10,8 @@
 
 ### isThis-a-Bug is a web based application that provides facility for developer of big application and projects to get data about the bugs from their production build. Details such as the exact build of occurence, type of bug, decription, how to replicate and many more are easily accessible off the record. The system at any point can provide essential details of reported Bug, and their current status. With the data in hand Developers can work on them to improve their software and services for better User experience.
 
-## Tech Stack
+## Languages and Libraries
+
+| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	|
+|:-------------------------------------------------------------------------:	|:-------------------------------------------------------------------------:	|---------------------------------------------------------------------------	|---------------------------------------------------------------------------	|---------------------------------------------------------------------------	|
+| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	| <img style="width:100%" src="./Documentation/assets/readme/lang/css.png"> 	|
